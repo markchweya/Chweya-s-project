@@ -1,0 +1,85 @@
+.grade-container {
+    flex-direction: column;
+    background-color: blue;
+    display: flex;
+    max-width: 500px; 
+    align-items: center;
+    border-radius: 400px;
+    padding: 30px;
+}
+
+.speed-container {
+    margin-top: 5px;
+    flex-direction: column;
+    background-color: blue;
+    display: flex;
+    max-width: 500px; 
+    align-items: center;
+    border-radius: 400px;
+    padding: 30px;
+}
+
+h2 {
+   color: black;
+   text-align: center;
+   font-size: 30px;
+}
+#check-btn{
+   border-radius: 30px;
+   color: white;
+   background-color: blue;
+   transition: all 1s;
+   
+}
+
+#check-btn:hover{
+    color: blue;
+    background-color: white;
+}
+
+
+label {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-color: black;
+    border-width: 1px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#result {
+    font-size: 20px;
+    text-align: center;
+	margin-top: 10px;
+	color: white;
+}
+
+
+
+.label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#output {
+    color: white;
+	margin-top: 20px;
+	font-size: 20px;
+}
+	
