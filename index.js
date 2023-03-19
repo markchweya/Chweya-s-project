@@ -1,4 +1,4 @@
-/*Grade Calculator */
+/*Assignment for Grade Generator */
 
 function calculateGrade() {
 
@@ -35,19 +35,32 @@ function calculateGrade() {
 /* Assignment of the speedlimit */
 
 function checkSpeed() {
+
 	const speedInput = document.getElementById("speed-input");
+
 	const speed = Number(speedInput.value);
+
 	const speedLimit = 70;
+
 	const kmPerPoint = 5;    
 
 	if (speed <= speedLimit) {
+
+
 		document.getElementById("output").textContent = "Ok";
+
 	} else {
-		const points = Math.floor((speed - speedLimit) / kmPerPoint);//for every 5kmperhour exceeding the speed limit, user is charged 1 point for it
-		if (points >= 12) {//if the points exceeds 12, the license of the user is suspended
+
+		const points = Math.floor((speed - speedLimit) / kmPerPoint);
+
+		if (points >= 12) {
+
 			document.getElementById("output").textContent = "License suspended";
+
 		} else {
+
 			document.getElementById("output").textContent = `Points: ${points}`;
+
 		}
 	}
 }
